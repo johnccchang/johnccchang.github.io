@@ -6,4 +6,8 @@ Public landing, support, and privacy pages for Spotly.
 - `/spotly/support/` — customer support
 - `/spotly/privacy/` — privacy policy
 
-The root `/app-ads.txt` file will be added after the personalized declaration is copied from AdMob.
+- `/app-ads.txt` — AdMob authorized seller declaration
+
+GitHub Pages publishes the `public` directory. The declaration must remain at
+`public/app-ads.txt` so it is served at `https://johnccchang.github.io/app-ads.txt`,
+not under `/spotly/`.
