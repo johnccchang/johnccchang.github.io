@@ -47,7 +47,7 @@ h2{font-size:clamp(2.6rem,5vw,4.4rem);letter-spacing:-.05em;margin-bottom:19px;f
 .companion-section{display:grid;grid-template-columns:.9fr 1fr;gap:clamp(45px,8vw,120px);align-items:center;padding:25px 0 130px}
 .companion-art{position:relative;display:grid;place-items:center;min-height:440px}
 .companion-circle{position:absolute;width:min(96%,490px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 45% 35%,#d9eac9,#a8cfae 74%)}
-.companion-art img{position:relative;width:min(100%,510px);filter:drop-shadow(0 14px 12px #214d3c24)}
+.companion-art img{position:relative;display:block;width:min(100%,510px);height:auto;filter:drop-shadow(0 14px 12px #214d3c24)}
 .companion-copy p:last-child{margin-bottom:0}
 .closing{margin-bottom:88px;padding:clamp(44px,7vw,80px);text-align:center;border-radius:38px;background:var(--forest);color:#fffaf0}
 .closing .eyebrow{color:#eac978}.closing h2{max-width:750px;margin-inline:auto}.closing p:not(.eyebrow){color:#d5e8d9;font-size:1.1rem}
